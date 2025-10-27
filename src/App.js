@@ -6,6 +6,9 @@ import Servicios from './components/Servicios';
 import Soluciones from './components/Soluciones';
 import CalculadoraIntegral from './components/CalculadoraIntegral';
 import Planes from './components/Planes';
+import Testimonios from './components/Testimonios';
+import FAQ from './components/FAQ';
+import Contacto from './components/Contacto';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Soluciones />
       <CalculadoraIntegral />
       <Planes />
+      <Testimonios />
+      <FAQ />
+      <Contacto />
       <Footer />
     </div>
   );
